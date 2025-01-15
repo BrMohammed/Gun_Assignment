@@ -859,7 +859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 192c5847885073c4e8c60f4b7b506950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingDelay: 8
+  loadingDelay: 2
   t: {fileID: 60328882}
 --- !u!4 &1238277363
 Transform:
@@ -899,7 +899,7 @@ GameObject:
   - component: {fileID: 1925282009}
   - component: {fileID: 1925282008}
   m_Layer: 0
-  m_Name: AudioMAneger
+  m_Name: AudioManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

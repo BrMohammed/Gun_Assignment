@@ -19,7 +19,7 @@ public class UiAnimeShop : MonoBehaviour
         if(Double == 1)
         {
             LeanTween.moveLocalX(Soundobj, -284.1f, 0.2f);
-            LeanTween.scaleX(Soundobj, 1.82f, 0.2f);
+            LeanTween.scaleX(Soundobj, 2.93f, 0.2f);
             if(begin == 0)
                 LeanTween.moveLocalY(Soundobj, Soundobj.transform.localPosition.y - 10f, 1.5f).setEaseInOutSine().setLoopPingPong();
             Double = 0;
