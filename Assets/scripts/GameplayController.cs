@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEditor;
 
 public class GameplayController : MonoBehaviour
 {
@@ -276,6 +277,16 @@ public class GameplayController : MonoBehaviour
         totalcoin++;
         SimpelDb.update(totalcoin.ToString(), "TotalCoin");
 
+    }
+
+    public void CloseGame()
+    {
+        AudioManager.instance.PlaySound("click");
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
     }
 
 }
