@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1.49
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: c8a08d493fc104842a1b044b82ba5aed, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 19d03418fc98f98419238b9c92edb9eb, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1043,7 +1043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &406501101
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4023,10 +4023,10 @@ MonoBehaviour:
       unlocCost: 0
     - itemName: char02
       isUnlocked: 1
-      unlocCost: 20
+      unlocCost: 2
     - itemName: char03
       isUnlocked: 1
-      unlocCost: 30
+      unlocCost: 4
   Characters:
   - {fileID: 1367425069}
   - {fileID: 1109824856}
@@ -4082,13 +4082,10 @@ MonoBehaviour:
       UnlockCost: 0
     - ItemName: forest
       IsUnlocked: 1
-      UnlockCost: 40
+      UnlockCost: 2
     - ItemName: Ice
       IsUnlocked: 1
-      UnlockCost: 120
-    - ItemName: City
-      IsUnlocked: 1
-      UnlockCost: 170
+      UnlockCost: 4
   Maps:
   - {fileID: 1045669140}
   - {fileID: 799684567}
